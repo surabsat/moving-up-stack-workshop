@@ -13,7 +13,7 @@ Resources:
       EnableDnsHostnames: true
       InstanceTenancy: default
       Tags:
-        - Key: Name
+        - Key: Name1
           Value: movingupstack vpc
   InternetGateway:
     Type: 'AWS::EC2::InternetGateway'
